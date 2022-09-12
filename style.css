@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* ----------------------SIGN UP PAGE STYLING------------------------------- */
+.float::after{
+
+content:" ";
+display: block;
+clear: both;
+}
+.leftfloat{
+float: left;
+width: 50%;
+}
+.rightfloat{
+float: right;
+width: 49%;
+background-color:#f7f7f7; ;
+    font-size: 1.6rem;
+    padding: 1rem;
+
+
+}
+.img{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;  
+}
+.header .rightfloat .form .heading{
+    color:#0040ff;
+    font-size: 3.5rem;
+    margin-bottom: 0.7em;
+    text-transform: uppercase;
+}
+.form{
+    padding: 3.5em;
+     height: 100%;
+    
+ }
+.text{
+     width:60%;
+    background-color: #fff;
+    padding:  0.7em;
+    margin-bottom: 0.8em;
+    color: #0040ff;
+  }
+  .email{
+width:60%;
+background-color: #fff;
+    padding:  0.7em;
+    margin-bottom: 0.8em;
+    color: #0040ff;
+  }.password{
+width:60%;
+background-color: #fff;
+    padding:  0.7em;
+    margin-bottom: 0.8em;
+    color: #0040ff;
+  }
+  .number{
+width:60%;
+background-color: #fff;
+    padding: 0.7em;
+    margin-bottom: 0.8em;
+    color: #0040ff;
+  }
+  .input{
+      border: none;
+      background: none;
+      outline: none;
+      padding: 0.8em;
+      font-size: 1.5rem;
+     
+  }
+  .btn{
+      border: none;
+      background: none;
+      outline: none;
+      background-color:#0040ff ;
+      border: #0040ff solid 2px;
+      border-radius: 0.8rem;
+      font-size: 2.3rem;
+      color: #fff;
+      letter-spacing: 0.2rem;
+      padding:0.3em;
+      width: 60%;
+      margin-top: 0.9em;
+      
+  }
+  .parh{
+    font-size: 1.5rem;
+    margin-top: 2.9em;
+    padding-left: 2.4em;
+   
+}
+  .footer{
+    color:#0040ff;
+    padding: 0.2rem;
+    text-align: center;
+    
+  }
+  .f1 i{
+  margin: 5rem;
+  }
+  .header .float .rightfloat .parh a{
+      color: #0040ff;
+  }
+  /* -------------------------SIGN IN PAGE STYLING--------------------- */
+  .Forgot-password{
+    text-align: right;
+    margin-right: 14em;
+    color: darkgray;
+}
+  .Forgot-password:hover{
+      color: #0040ff;
+  }
+  /* ----------------- media --------------------------- */
+  @media(max-width:500px){
+    html{
+        /* font-size: 8px; */
+        font-size: 50%;
+    }
+    .form{
+        padding: 2.5em;
+         height: 100%;
+         width: 100%;
+        
+     }
+    .header .rightfloat .form .heading{
+        color:#0040ff;
+        font-size: 2.5rem;
+        margin-bottom: 0.7em;
+        text-transform: uppercase;
+    }
+    .parh{
+        font-size: 1.5rem;
+        margin-top: 2.9em;
+        padding-left: 2.4em;
+       
+    }
+    .Forgot-password{
+        text-align: right;
+        margin-right: 5em;
+        color: darkgray;
+    }
+  
+    .leftfloat,.rightfloat{
+    float: none;
+    width: 100%;
+    
+    }
+    .leftfloat{
+        width: 90%;
+        height: 90%;
+    }
+
+    .input{
+        width: 100%;
+    }
+
+    .text{
+        width: 100%;
+    }
+    .email{
+     width: 100%;
+    }
+    .password{
+    width: 100%;
+    }
+    .number{
+        width: 100%;
+    }
+    .btn{
+        width: 90%;
+    }
+  }  
+   @media(max-width:768px){
+    .html{
+        /* font-size: 8px; */
+        font-size: 50%;
+    }
+    
+    .leftfloat,.rightfloat{
+    float: none;
+    width: 100%;
+    
+    }
+    .leftfloat{
+        width: 50%;
+        height: 50%;
+    }
+    
+    .input{
+        width: 60%;
+    }
+    
+    .text{
+        width: 60%;
+    }
+    .email{
+     width: 60%;
+    }
+    .password{
+    width: 60%;
+    }
+    .number{
+        width: 60%;
+    }
+    .btn{
+        width: 60%;
+    }
+    }
+
+@media(max-width: 280px){
+    .html{
+        /* font-size: 8px; */
+        font-size: 50%;
+    }
+    .form .heading{
+        width: 80%;
+    }
+    .leftfloat,.rightfloat{
+    float: none;
+    width: 100%;
+    
+    }
+    .leftfloat{
+        width: 50%;
+        height: 50%;
+    }
+    
+    .input{
+        width: 80%;
+    }
+    
+    .text{
+        width: 80%;
+    }
+    .email{
+     width: 80%;
+    }
+    .password{
+    width:80%;
+    }
+    .number{
+        width: 80%;
+    }
+    .btn{
+        width: 80%;
+    }
+    .header .rightfloat .form .heading{
+        color:#0040ff;
+        font-size: 2.3rem;
+        margin-bottom: 0.7em;
+        text-transform: uppercase;
+    }
+    .footer{
+        color:#0040ff;
+        padding: 0.2rem;
+        text-align: center;
+        
+      }
+      .f1 i{
+      margin: 2rem;
+      }
+      .parh{
+        padding-left: 1.4em;
+      }
+      .Forgot-password{
+        text-align: right;
+        margin-right: 1em;
+        color: darkgray;
+    }
+    }
+    @media(min-width:769px) and (max-width:1200px )
+    {
+        html{
+            font-size: 56.25%;
+        }
+        .leftfloat{
+            width: 100%;
+        }
+        .rightfloat{
+            width: 100%;
+        }
+        .input{
+            width: 40%;
+        }
+        
+        .text{
+            width: 40%;
+        }
+        .email{
+         width: 40%;
+        }
+        .password{
+        width: 40%;
+        }
+        .number{
+            width: 40%;
+        }
+        .btn{
+            width: 40%;
+        }
+        .parh{
+            padding-left: 1.4em;
+            font-size: 2.3rem;
+          }
+          .Forgot-password{
+            text-align: right;
+            margin-right: 38.9em;
+            color: darkgray;
+        }
+    }
+    
+
+
+  
+    
